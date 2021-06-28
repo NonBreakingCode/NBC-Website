@@ -27,8 +27,10 @@
   text-justify: inter-word;
 }
 
-/* a:hover {
-  background-color: rgb(238, 161, 74);
-  color: white;
-  } */
+@media (min-width: 320px) {
+  .text-center {
+    max-width: 99% !important;
+  }
+}
+
 
